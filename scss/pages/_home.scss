@@ -1,0 +1,207 @@
+.hero__container{
+display: flex;
+padding-top: 11.8rem;
+justify-content: space-between;
+    .hero__right{
+        width: 54rem;
+
+    .hero__rated{
+        width: 44.5rem;
+        height: 5.6rem;
+        background: $color-block-bg;
+        display: flex;
+        align-items: center;
+        padding-left: 3.2rem;
+        padding-right: 7.9rem;
+        justify-content:space-between;
+        margin-top: 1.6rem;
+       
+        img{
+            width: 11.65rem;
+            height: 1.57rem;
+        }
+        h4{
+            font-size: $font-size-psamll;
+            color: $color-primary;
+            font-weight: 700;
+            font-family: $font-family;
+        }
+    }
+        .hero__rated:nth-child(2){
+            margin-left: 4.8rem;
+        }
+        .hero__rated:nth-child(3){
+            margin-left: 9.5rem;
+        }
+    }
+.hero__left{
+    width: 100%;
+    max-width: 44.5rem;
+    h1{
+        font-size: $font-size-h1;
+        font-weight: 700;
+        line-height: 0.86;
+        color:  $color-primary;
+        font-family: $font-family;
+    }
+    p{
+         font-size: $font-size-pbig;
+        font-weight: 500;
+        line-height: 1.32;
+        color:  $color-secondary;
+        font-family: $font-family;
+        padding-top: 1.6rem;
+    }
+}
+}
+@media screen and (max-width:1000px) {
+    .hero__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .hero__right{
+        width: 44.5rem;
+
+   
+        .hero__rated:nth-child(2){
+            margin-left: 0rem;
+        }
+        .hero__rated:nth-child(3){
+            margin-left: 0rem;
+        }
+    }
+}
+}
+@media screen and (max-width:500px) {
+    .hero__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 8.2rem;
+    .hero__right{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+
+    .hero__rated{
+        width: 100%;
+        max-width: 32.7rem !important;
+        height: 7.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 5.5rem;
+        margin-top: 1.6rem;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+       
+        img{
+            width: 11.65rem;
+            height: 1.57rem;
+        }
+        h4{
+            font-size: 1.6rem;
+        }
+    }
+        .hero__rated:nth-child(2){
+             margin-left: auto;
+            margin-right: auto;
+        }
+        .hero__rated:nth-child(3){
+            margin-left: auto;
+             margin-right: auto;
+        }
+    }
+.hero__left{
+    width: 100%;
+    max-width: 32.7rem;
+    text-align: center;
+    h1{
+        font-size: 4rem;
+    }
+    
+}
+}
+}
+@media screen and (max-width:300px) {
+    .hero__rated{
+        width: 100%;
+        width: 29rem !important;
+    }
+    .hero__left{
+        width: 29rem !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.second__container{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 7.1rem;
+    margin-bottom: 10rem;
+        .second__card{
+       width: 35rem;
+       height: 23.4rem;
+       background: $color-primary;
+        padding: 4rem 3.2rem  3.5rem;
+        border-radius: 8px;
+    }
+     .second__card:nth-child(2){
+        margin-top: 1.6rem;
+     }
+      .second__card:nth-child(3){
+        margin-top: 3.2rem;
+     }
+    .second__title{
+        display: flex;
+        img{
+            margin-right: 2.3rem;
+        }
+        .second__decription{
+            color: $color-white;
+            font-family: $font-family;
+            font-size: $font-size-psamll;
+            font-weight: 700;
+
+        }
+        .second__verified{
+             color: $color-pink;
+            font-family: $font-family;
+            font-size: $font-size-psamll;
+            font-weight: 400;
+        }
+    }
+    .second__text{
+        padding-top: 3rem;
+        p{
+            font-family: $font-family;
+            color: $color-white;
+            font-size: $font-size-psamll;
+            line-height: 1.29;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .second__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .second__container{
+        .second__card{
+            width: 32.7rem;
+        }
+    }
+    
+}
+
+
+
